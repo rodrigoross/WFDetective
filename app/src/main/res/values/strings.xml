@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Detetive WiFi</string>
+    <string name="contentDescription">Imagem de representação básica das wifi disponiveis</string>
+    <string name="infoGrupo">Grupo Network APP \n
+                                Integrantes:\n
+                            Bruna\n
+                            Gislene\n
+                            Ludmilla\n
+                            Rodrigo\n
+                            Alessandro</string>
+    <string name="InfoLocal">UFMT - Computação Móvel. Network APP ®</string>
+    <string name="InfoAdicional">Informação da Rede</string>
+    <string name="Ok">Ok</string>
+
+</resources>

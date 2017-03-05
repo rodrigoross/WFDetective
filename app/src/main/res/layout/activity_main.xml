@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.com.ufmt.ic.wfd.MainActivity"
+    android:weightSum="1"
+    android:background="#FFF2F2F2">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="319dp"
+        android:background="@drawable/icone_lupa"
+        android:id="@+id/btn_procurar"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoGRupo"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center"
+        android:text="@string/infoGrupo"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoLocal"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="@string/InfoLocal"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="center|end"/>
+</LinearLayout>
